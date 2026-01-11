@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+    xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2"
+    Version="1.0.0.0"
+    Uri="https://github.com/ALPERENKULLANICI/AlpSoft/releases/latest/download/AlpSoft.appinstaller">
+
+    <MainPackage
+        Name="AlpSoft.Package"
+        Publisher="CN=Alperen"
+        Version="1.0.0.0"
+        Uri="https://github.com/ALPERENKULLANICI/AlpSoft/releases/latest/download/AlpSoft.Package_1.0.0.0_AnyCPU_Debug.appxbundle" />
+
+    <UpdateSettings>
+        <OnLaunch/>
+        <AutomaticBackgroundTask/>
+    </UpdateSettings>
+
+</AppInstaller>
